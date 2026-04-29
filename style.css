@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    padding: 0rem;
+    max-width: 1800px;
+}
+
+h1 {
+    color: rgb(22, 123, 239);
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    border-bottom: 3px solid rgb(22, 123, 239);
+}
+
+h2 {
+    color: rgb(22, 123, 239);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: rgb(57, 109, 221);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.blog-header {
+    background: linear-gradient( rgb(118, 75, 162) 100%);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.blog-header h1 {
+    color: white;
+    border-bottom: none;
+    font-size: 3rem;
+}
+
+.blog-content {
+    padding: 0 1rem;
+}
+
+.post-box {
+    background-color: rgba(118, 75, 162, 0.1);
+    border: 2px solid rgba(118, 75, 162, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-box h3 {
+    color: rgb(118, 75, 162);
+    margin-top: 0;
+}
+
+.conclusion-header {
+    background: linear-gradient( rgb(118, 75, 162) 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.conclusion-header h1 {
+    color: white;
+    border-bottom: none;
+    font-size: 2rem;
+}
+
